@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <meta name="author" content="Imabanana80">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Imabanana80's Website Source Code">
@@ -18,11 +19,35 @@
 <style>
     body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-color: #333;
-        color: white;
+    }
+    
+    .footer {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    .footer p {
+      margin: 0;
+    }
+    
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer a:hover{
+        color: #d8d8d8;
     }
 </style>
 <body>
     Redirecting...
+    
+    <div class="footer">
+        <a href="https://imabanana80.com/source" class="outline" draggable="false">&copy; 2023 Imabanana80</a>
+    </div>
 </body>
 </html>
