@@ -1,0 +1,15 @@
+html {
+    cursor: url('/assets/others/cursor.png'), none;
+}
+
+a:link {
+    cursor: url('/assets/others/cursor.png'), none;
+}
+
+a:visited {
+    cursor: url('/assets/others/cursor.png'), none;
+}
+
+a:active {
+    cursor: url('/assets/others/cursor.png'), none;
+}
