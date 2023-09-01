@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://discord.gg/Hz5TwPs8Rv",
     "https://modrinth.com/user/wZCAi9ke",
     "https://thegerald.net",
+    "https://github.com/Imabanana80/imabanana80.github.io",
   ];
 
   if (valid.includes(target)) {
