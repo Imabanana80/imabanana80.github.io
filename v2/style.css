@@ -8,4 +8,10 @@
 
 .title {
     font-size: 50px;
+    transition-property: all;
+    transition-duration: 0.75s;
+}
+
+.title:hover {
+    transform: translateY(10px);
 }
