@@ -1,16 +1,16 @@
-  a:link {
-      color: rgb(135, 135, 241);
-      background-color: transparent;
-      text-decoration: none;
-  }
+a:link {
+  color: rgb(135, 135, 241);
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  a:visited {
-      color: rgb(135, 135, 241);
-      background-color: transparent;
-      text-decoration: none;
-  }
+a:visited {
+  color: rgb(135, 135, 241);
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  a:active {
-      color: rgb(103, 103, 241);
-      background-color: transparent;
-  }
+a:active {
+  color: rgb(103, 103, 241);
+  background-color: transparent;
+}

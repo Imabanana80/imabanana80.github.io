@@ -1,15 +1,15 @@
 html {
-    cursor: url('/static/assets/others/cursor.png'), none;
+  cursor: url("/static/assets/others/cursor.png"), none;
 }
 
 a:link {
-    cursor: url('/static/assets/others/cursor.png'), none;
+  cursor: url("/static/assets/others/cursor.png"), none;
 }
 
 a:visited {
-    cursor: url('/static/assets/others/cursor.png'), none;
+  cursor: url("/static/assets/others/cursor.png"), none;
 }
 
 a:active {
-    cursor: url('/static/assets/others/cursor.png'), none;
+  cursor: url("/static/assets/others/cursor.png"), none;
 }

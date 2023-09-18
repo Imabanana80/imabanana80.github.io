@@ -1,32 +1,32 @@
 .header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 15px 10%;
-    background-color: #222;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 10%;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
 .logo {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .logo:hover {
-    font-size: 25px;
-    color: #adadad;
-    transition: 0.3s;
+  font-size: 25px;
+  color: #adadad;
+  transition: 0.3s;
 }
 
 .navbar a {
-    font-size: 18px;
-    margin-left: 20px;
-    transition: 0.3s;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-    color: #bdbdbd;
+  color: #bdbdbd;
 }

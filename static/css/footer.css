@@ -1,21 +1,21 @@
 .footer {
-    background-color: #222;
-    display: flex;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    justify-content: left;
+  background-color: #222;
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: left;
 }
 
 .footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0;
-    transition: 0.3s;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  transition: 0.3s;
 }
 
 .footer a:hover {
-    color: #bdbdbd;
+  color: #bdbdbd;
 }
