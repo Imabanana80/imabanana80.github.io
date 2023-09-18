@@ -8,20 +8,19 @@ footer {
 
 .footer_container {
   width: 100%;
-  padding: 10px 25px 10px;
-  padding-left: 0;
+  padding: 10px 10%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer_icons {
   display: flex;
-  align-content: center;
-  padding-left: 10%;
 }
 
 .footer_icon {
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 4px 20%;
+  padding: 0px 15%;
 }

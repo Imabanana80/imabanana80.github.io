@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (valid.includes(target)) {
     location.replace(target);
   } else {
-    location.replace("https://imabanana80.com/404");
+    setTimeout(() => {
+      location.replace("https://imabanana80.com/404");
+    }, 1000);
   }
 });
