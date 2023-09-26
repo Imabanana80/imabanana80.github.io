@@ -15,18 +15,8 @@
   font-size: 25px;
 }
 
-.logo:hover {
-  font-size: 25px;
-  color: #adadad;
-  transition: 0.3s;
-}
-
 .navbar a {
   font-size: 18px;
   margin-left: 20px;
   transition: 0.3s;
-}
-
-.navbar a:hover {
-  color: #bdbdbd;
 }
