@@ -1,26 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const queryString = window.location.search;
+    const queryString = window.location.search;
 
-  const urlParams = new URLSearchParams(queryString);
+    const urlParams = new URLSearchParams(queryString);
 
-  const target = urlParams.get("to");
+    const target = urlParams.get("to");
 
-  const valid = [
-    "https://twitch.tv/Imabanana80",
-    "https://github.com/Imabanana80",
-    "https://youtube.com/@Imabanana80",
-    "https://discord.gg/FVvRMAx2Sm",
-    "https://modrinth.com/user/wZCAi9ke",
-    "https://thegerald.net",
-    "https://github.com/Imabanana80/imabanana80.github.io",
-    "https://www.patreon.com/imabanana80"
-  ];
+    const links = new Map();
 
-  if (valid.includes(target)) {
-    location.replace(target);
-  } else {
-    setTimeout(() => {
-      location.replace("https://imabanana80.com/404");
-    }, 1000);
-  }
+    links.set("twitch", "https://twitch.tv/Imabanana80");
+    links.set("github", "https://twitch.tv/Imabanana80");
+    links.set("youtube", "https://twitch.tv/Imabanana80");
+    links.set("discord", "https://twitch.tv/Imabanana80");
+    links.set("modrinth", "https://twitch.tv/Imabanana80");
+    links.set("patreon", "https://twitch.tv/Imabanana80");
+    links.set("gerald", "https://twitch.tv/Imabanana80");
+    links.set("source", "https://twitch.tv/Imabanana80");
+
+    if (links.has(target)) {
+        console.log(target);
+        console.log(links.get(target));
+        location.replace(links.get(target));
+    } else {
+        setTimeout(() => {
+            location.replace("https://imabanana80.com/404");
+        }, 1000);
+    }
 });

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=REM&display=swap");
+@import url("http://127.0.0.1:5500/font/rem/REM.css");
 
 body {
-  font-family: "REM", sans-serif;
+    font-family: "REM", sans-serif;
 }
