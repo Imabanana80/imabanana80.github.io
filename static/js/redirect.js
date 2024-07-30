@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const links = new Map();
 
     links.set("twitch", "https://twitch.tv/Imabanana80");
-    links.set("github", "https://twitch.tv/Imabanana80");
-    links.set("youtube", "https://twitch.tv/Imabanana80");
-    links.set("discord", "https://twitch.tv/Imabanana80");
-    links.set("modrinth", "https://twitch.tv/Imabanana80");
-    links.set("patreon", "https://twitch.tv/Imabanana80");
-    links.set("gerald", "https://twitch.tv/Imabanana80");
-    links.set("source", "https://twitch.tv/Imabanana80");
+    links.set("github", "https://github.com/Imabanana80");
+    links.set("youtube", "https://youtube.com/@Imabanana80");
+    links.set("discord", "https://discord.gg/FVvRMAx2Sm");
+    links.set("modrinth", "https://modrinth.com/user/Imabanana80");
+    links.set("patreon", "https://www.patreon.com/Imabanana80");
+    links.set("gerald", "https://thegerald.net/");
+    links.set("source", "https://github.com/Imabanana80/imabanana80.github.io");
 
     if (links.has(target)) {
         console.log(target);
