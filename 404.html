@@ -9,32 +9,59 @@
         <link
             rel="icon"
             type="image/x-icon"
-            href="/static/assets/icons/favicon.ico" />
-        <link
-            rel="stylesheet"
-            ,
-            href="https://imabanana80.com/static/css/font_rem.css" />
-        <link
-            rel="stylesheet"
-            ,
-            href="https://imabanana80.com/static/css/link.css" />
-        <link
-            rel="stylesheet"
-            ,
-            href="https://imabanana80.com/static/css/footer.css" />
+            href="/static/assets/icons/favicon.ico"
+        />
+        <link rel="stylesheet" , href="./static/css/theme.css" />
         <title>404 Not Found</title>
     </head>
+    <style>
+        #main {
+            text-align: center;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+            width: 60rem;
+        }
+        #main h1 {
+            font-size: 5rem;
+            margin-bottom: 0rem;
+        }
+        #desc {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0rem;
+        }
+        #footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: #808080;
+        }
+        #footer-link {
+            color: #808080;
+        }
+    </style>
 
     <body>
-        <h1>404 Not Found</h1>
-        Whoops! The page you are looking for has either moved or does not exist.
-        :(
-        <br />
-        <a href=".">Go Home</a>
-        <div class="footer">
-            <a href="." class="outline" draggable="false"
-                >&copy; 2023 Imabanana80</a
-            >
+        <div id="main">
+            <h1>404 Not Found</h1>
+            <p id="desc">
+                Whoops! The page you are looking for has either moved or does
+                not exist.
+            </p>
+        </div>
+        <div id="footer">
+            <p>
+                <a id="footer-link" href="./redirect/?to=source">
+                    by Imabanana80
+                </a>
+            </p>
         </div>
     </body>
 </html>
