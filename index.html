@@ -13,23 +13,24 @@
         <meta property="og:url" content="https://imabanana80.com/" />
         <meta
             property="og:image"
-            content="https://imabanana80.com/static/assets/icons/logo.png" />
+            content="https://imabanana80.com/static/assets/icons/logo.png"
+        />
         <meta property="og:image:alt" content="imabanana80" />
         <meta property="og:description" content="goofy developer kinda guy" />
         <meta content="#2b2d31" data-react-helmet="true" name="theme-color" />
         <link
             rel="icon"
             type="image/x-icon"
-            href="/static/assets/icons/favicon.ico" />
-        <link rel="stylesheet" href="static/css/font_rem.css" />
-        <link rel="stylesheet" href="static/css/link.css" />
-        <link rel="stylesheet" href="static/css/footer.css" />
+            href="/static/assets/icons/favicon.ico"
+        />
+        <link rel="stylesheet" href="static/css/theme.css" />
         <title>Imabanana80</title>
     </head>
     <!-- Google tag (gtag.js) -->
     <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-DX5XNGQ778"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=G-DX5XNGQ778"
+    ></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() {
@@ -42,11 +43,6 @@
         console.log("Suck it nano, no more construction sign");
     </script>
     <style>
-        html {
-            background-color: #111;
-            color: #fff;
-            font-family: "REM", sans-serif;
-        }
         #main {
             text-align: center;
             position: fixed;
@@ -73,6 +69,7 @@
             margin-right: 0.15rem;
             color: #8787f1;
         }
+
         #footer {
             position: fixed;
             bottom: 0;
@@ -80,7 +77,10 @@
             width: 100%;
             text-align: center;
             font-size: 1rem;
-            color: gray;
+            color: #808080;
+        }
+        #footer-link {
+            color: #808080;
         }
     </style>
     <body>
@@ -98,7 +98,11 @@
             </p>
         </div>
         <div id="footer">
-            <p href="/redirect/?to=source">by Imabanana80</p>
+            <p>
+                <a id="footer-link" href="./redirect/?to=source">
+                    by Imabanana80
+                </a>
+            </p>
         </div>
     </body>
 </html>
