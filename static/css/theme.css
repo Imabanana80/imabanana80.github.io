@@ -6,20 +6,10 @@ html {
     font-family: "REM", sans-serif;
 }
 
-a:link {
-    color: rgb(135, 135, 241);
+a:link,
+a:visited,
+a:active {
+    color: #8787f1;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
-    color: rgb(135, 135, 241);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: rgb(103, 103, 241);
-    background-color: transparent;
-  }
-  
+}
