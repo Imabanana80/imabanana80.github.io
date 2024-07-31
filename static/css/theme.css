@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=REM");
+
+html {
+    background-color: #111;
+    color: #fff;
+    font-family: "REM", sans-serif;
+}
+
+a:link {
+    color: rgb(135, 135, 241);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(135, 135, 241);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(103, 103, 241);
+    background-color: transparent;
+  }
+  
